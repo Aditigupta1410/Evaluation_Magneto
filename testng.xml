@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="serverlink" value="http://172.18.0.139:4444"></parameter>
+    <test verbose="2" preserve-order="true" name="C:/Users/Aditi Gupta/IdeaProjects/MagnetoApplication">
+        <classes><class name="com.Test.Magneto_Test">
+            <methods>
+                <include name="Task1"/>
+            </methods>
+        </class>
+        </classes>
+    </test>
+</suite>
